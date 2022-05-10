@@ -17,3 +17,6 @@ author: "Your Name"
 
 # Disqus config
 disqus-shortname: ""
+
+# possible future post
+future: true
