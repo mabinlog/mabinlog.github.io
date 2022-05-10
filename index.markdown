@@ -26,16 +26,11 @@ about: 'about.html'
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-
 <main id="content" class="content" role="main">
-
-
     <div class="extra-pagination inner">
         {% include pagination.html %}
     </div>
-
     {% for post in paginator.posts %}
-
     <article class="post">
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -56,9 +51,6 @@ about: 'about.html'
             </time> 
         </footer>
     </article>
-
     {% endfor %}
-
     {% include pagination.html %}
-
 </main>
