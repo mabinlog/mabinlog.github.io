@@ -1,0 +1,20 @@
+---
+layout: post
+title: "2022-05-11 Post!"
+date: 2022-05-11
+---
+
+<img class="post-book" src="{{'/assets/images/clean-code-book.jpg' | relative_url}}" alt="clean code" />
+
+<h3>Clean Code 1장 깨끗한 코드</h3><br>
+
+<strong>태도</strong><br>
+좋은 코드를 사수하는 것은 프로그래머의 책임이다<br><br>
+
+<strong>깨끗한 코드란?</strong><br>
+중복을 피하고, 한 기능을 제대로 수행하며, 제대로 표현하고, 작게 추상화해야 한다<br><br>
+
+<strong>보이스카우트 규칙</strong><br>
+"캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라."
+한꺼번에 많은 시간과 노력을 투자해 코드를 정리할 필요는 없다
+지속적으로 개선해나가야 한다

@@ -13,10 +13,14 @@ plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "Mabin"
 
 # Disqus config
 disqus-shortname: ""
 
 # possible future post
 future: true
+
+# <br>(줄 바꿈) 을 텍스트가 아닌 문자 그대로 해석함
+kramdown:
+  hard_wrap: true

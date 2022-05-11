@@ -6,7 +6,7 @@ about: 'about.html'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix"> -->
+    <nav class="main-nav overlay clearfix">
         <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }} ">Subscribe</a>
     </nav>
     <div class="vertical">
@@ -31,9 +31,9 @@ about: 'about.html'
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         </header>
-        <section class="post-excerpt">
+        <!-- <section class="post-excerpt">
             {{ post.excerpt }} <a class="read-more" href="{{ post.url | relative_url }}">&raquo;</a>
-        </section>
+        </section> -->
         <footer class="post-meta">
             {% if site.author %}
                 <img class="author-thumb" src="{{'/assets/images/profile.jpg' | relative_url}}" alt="Author's profile picture" nopin="nopin" />

@@ -37,35 +37,12 @@
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
-        function updateImageWidth() {
-            var $this = $(this),
-                contentWidth = $postContent.outerWidth(), // Width of the content
-                imageWidth = this.naturalWidth; // Original image resolution
-
-            if (imageWidth >= contentWidth) {
-                $this.addClass('full-img');
-            } else {
-                $this.removeClass('full-img');
-            }
-        }
-
-        var $img = $("img").on('load', updateImageWidth);
-        function casperFullImg() {
-            $img.each(updateImageWidth);
-        }
-
-        casperFullImg();
-        $(window).smartresize(casperFullImg);
-
         $(".scroll-down").arctic_scroll();
 
     });
 
-    // smartresize
     jQuery.fn[sr] = function(fn) { return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
-    // Arctic Scroll by Paul Adam Davis
-    // https://github.com/PaulAdamDavis/Arctic-Scroll
     $.fn.arctic_scroll = function (options) {
 
         var defaults = {
