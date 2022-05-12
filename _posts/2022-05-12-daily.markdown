@@ -1,0 +1,31 @@
+---
+layout: post
+title: "2022-05-12 Post!"
+date: 2022-05-12
+---
+
+<img class="post-book" src="{{'/assets/images/clean-code-book.jpg' | relative_url}}" alt="clean code" />
+
+<h3>Clean Code 2장 의미 있는 이름</h3><br>
+
+<strong>이름</strong><br>
+
+우리는 변수, 함수, 클래스 등등 이름을 짓는다
+그렇기 때문에 이름을 잘 짓는 것은 단기적인 효과는 물론 장기적인 이익이 보장된다
+<br>
+
+<strong>의도를 분명히 밝혀라</strong><br>
+string n;
+변수 이름에는 아무 의미도 드러나지 않는다
+
+string studentName;
+변수 이름에 학생 이름이라는 의미가 드러난다
+
+의도를 정확하게 파악할 수 있도록 이름을 짓는 것은 중요하다
+<br>
+<strong>불용어는 쓰지마라</strong><br>
+public class Customer
+public class CustomerObject
+
+Object를 붙이지 않아도 차이가 없다
+정보를 제공하지 못하면 추가하지 않는다
