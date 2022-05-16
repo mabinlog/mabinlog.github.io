@@ -899,7 +899,7 @@ body:not(.post-template) .post-title {
     padding: 0.6em 0;
 }
 
-.post-content p{
+.post-content p, ul li{
     font-family: sans-serif;
 }
 

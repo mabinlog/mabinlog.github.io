@@ -10,8 +10,6 @@ baseurl: ""
 domain_name: "http://mabinlog.github.io"
 google_analytics: "UA-XXXXXXXX-X"
 plugins: [jekyll-paginate]
-
-# Details for the RSS feed generator
 url: ""
 author: "Mabin"
 
@@ -24,3 +22,7 @@ future: true
 # <br>(줄 바꿈) 을 텍스트가 아닌 문자 그대로 해석함
 kramdown:
   hard_wrap: true
+
+collections:
+  categorys:
+    output: true
